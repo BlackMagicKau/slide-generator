@@ -1,6 +1,6 @@
 # AI Slide Generator
 
-A modern web application that generates PowerPoint presentations using AI. Simply enter a topic, and the application will create a well-structured slide deck with consistent design, formatting, and content flow.
+A modern web application that generates PowerPoint presentations using AI. Simply enter a topic, and the application will create a well-structured slide deck with consistent design, formatting, and content flow. I didn't deploy this because I was just testing things out on my end for fun.
 
 ## Demo 
 
