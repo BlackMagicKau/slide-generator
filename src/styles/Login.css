@@ -1,0 +1,133 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #1a1a2e, #16213e, #1a1a2e);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 2.5rem;
+  border-radius: var(--glass-radius);
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.login-box h2 {
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.input-group {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 1rem 1rem 1rem 3rem;
+  border-radius: var(--glass-radius);
+  border: 1px solid var(--glass-border);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-family: inherit;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.login-box input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: inherit;
+}
+
+.login-box input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.login-box button[type="submit"] {
+  background: linear-gradient(to right, rgba(32, 84, 219, 0.5), rgba(76, 0, 255, 0.5));
+  border: none;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 4px 15px rgba(123, 31, 162, 0.3);
+}
+
+.login-box button[type="submit"]:hover {
+  background: linear-gradient(135deg, #8E24AA, #7B1FA2);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(123, 31, 162, 0.4);
+}
+
+.toggle-auth {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-top: 2rem !important;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0.5rem !important;
+  transition: color 0.3s ease;
+}
+
+.toggle-auth:hover {
+  color: white;
+  background: none !important;
+  transform: none !important;
+}
+
+.error {
+  color: #ff6b6b;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  background: rgba(255, 107, 107, 0.1);
+  border-radius: var(--glass-radius);
+  font-size: 0.9rem;
+}
+
+/* Icon styles */
+.auth-icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.input-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.login-box button svg {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+} 
