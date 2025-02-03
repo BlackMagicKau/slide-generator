@@ -2,6 +2,10 @@
 
 A modern web application that generates PowerPoint presentations using AI. Simply enter a topic, and the application will create a well-structured slide deck with consistent design, formatting, and content flow.
 
+## Demo 
+
+[![Demo](thumbnail.jpg)](https://github.com/BlackMagicKau/slide-generator/blame/main/Slide%20Generation%20Demo.m4v)
+
 ## Features
 
 - 🎨 AI-powered slide generation with cohesive design schemes
